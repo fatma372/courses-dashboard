@@ -1,0 +1,21 @@
+.course-card:hover{
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+button{
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+}
