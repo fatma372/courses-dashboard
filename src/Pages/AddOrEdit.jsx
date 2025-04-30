@@ -47,7 +47,7 @@ export default function AddOrEdit() {
 
   return (  
     <div className="p-6 bg-gray-800 min-h-screen flex items-center">
-        <div className="max-w-2xl mx-auto p-6 bg-white rounded min-w-xl shadow-gray-600 shadow-lg">  
+        <div className="max-w-screen mx-auto p-6 bg-white rounded  shadow-gray-600 shadow-lg">  
       <h2 className=" border-l-4 text-xl font-semibold mb-4 w-fit p-2">{id ? 'Edit Course' : 'Add New Course'}:</h2>  
       
       <form onSubmit={handleSubmit} className="space-y-4">  
